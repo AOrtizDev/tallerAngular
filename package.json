@@ -1,0 +1,24 @@
+{
+  "name": "tallerangular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AOrtizDev/tallerAngular.git"
+  },
+  "author": "Carlos Ortiz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AOrtizDev/tallerAngular/issues"
+  },
+  "homepage": "https://github.com/AOrtizDev/tallerAngular#readme",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
