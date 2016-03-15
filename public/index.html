@@ -1,12 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="cartelera">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cartelera</title>
     <link rel="stylesheet" href="/css/lib/bootstrap.css">
+    <link rel="stylesheet" href="/css/cartelera.css">
   </head>
   <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="#/" class="navbar-brand"><strong>Mi Cartelera</strong></a>
+        </div>
+      </div>
+    </div>
+    <div class="container main">
+      <div ng-view></div>
+    </div>
     <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>
