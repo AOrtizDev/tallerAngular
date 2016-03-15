@@ -1,3 +1,12 @@
 body {
   padding-top: 65px;
 }
+
+.content-center {
+  text-align: center;
+}
+
+.label-duracion {
+  margin-left: 3px;
+  background-color: #000000;
+}
